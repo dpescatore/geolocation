@@ -24,7 +24,8 @@ Added support to in browser geolocation using HTML5 api. In more details the fun
 
 You can find more details [here](https://www.w3schools.com/html/html5_geolocation.asp)
 
-## map.3.html
+## map.3.html Show me
+This page simply add an ol.overlay object to my map to show the user his current position obtained in the previous example.
 
 ## map.4.html
 
