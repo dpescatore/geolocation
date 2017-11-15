@@ -16,13 +16,13 @@ This page uses ol.js lib to embed an OpenStreetMap component. It uses OpenLayers
 ## map.2.html Gelocate me
 Added support to in browser geolocation using HTML5 api. In more details the function getLocation() does the following:
 
-*Check if Geolocation is supported
+* Check if Geolocation is supported
 
-*If supported, run the getCurrentPosition() method. If not, display a message to the user
+* If supported, run the getCurrentPosition() method. If not, display a message to the user
 
-*If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (viewMap)
+* If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (viewMap)
 
-*The viewMap() function get coords and use it on the map
+* The viewMap() function get coords and use it on the map
 
 ## map.3.html
 
