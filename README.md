@@ -51,5 +51,11 @@ Some others advanced selection functionalities are added on this layer. It is po
 This vector layer is enabled on click of specific 'Nazioni' menu on the left sidebar. Clicking on that label the nations layer is added on the map.
 
 ## map.8.html
+In the last example we managed the layers in a different way. We initialized a global layers vector and we defined enabled or disabled layer on startup of our application.
+
+Clicking left sidebar menu we enable and/or disable selected layer.
+
+We also embedded a Bing map layer as another example of source map layer.
+
 In order to work with [Bing maps](https://www.bing.com/maps?cc=it) you have to edit js/app.8.js file adding your own registered bing key.
 
