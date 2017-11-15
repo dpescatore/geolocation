@@ -24,6 +24,8 @@ Added support to in browser geolocation using HTML5 api. In more details the fun
 
 * The viewMap() function get coords and use it on the map
 
+You can find more details [here](https://www.w3schools.com/html/html5_geolocation.asp)
+
 ## map.3.html
 
 ## map.4.html
