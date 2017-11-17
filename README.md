@@ -26,7 +26,7 @@ Added support to in browser geolocation using HTML5 api. In more details the fun
 
 You can find more details [here](https://www.w3schools.com/html/html5_geolocation.asp)
 
-## map.3.html Show me
+## map.3.html Show me on map
 This page simply add an [ol.overlay object](https://openlayers.org/en/latest/apidoc/ol.Overlay.html) to my map to show the user his current position obtained in the previous example. 
 The animation is obtained with some css tricks.
 
@@ -34,14 +34,14 @@ The animation is obtained with some css tricks.
 In this page we add another overlay representing a label for our location, it is also clickable and customizable as needed.
 
 ## map.5.html Click on map
-This example shows how manage click events on a map element adding a popover used to show clicked coordinates.
+This example shows how manage click events on a map element adding a popover used to show clicked coordinates in a user friendly format.
 
 ## map.6.html Drawing features
 A more complex example related to drawing feature.
 
 To add this feature we need to add another vector layer on top of the map when we create the map.
 
-A selectTypeDraw() js function is created and invoked when the user click on 'Disegna' menu on the upper navbar, this function enable drawing on new added layer.
+A selectTypeDraw() js function is created and invoked when the user click on 'Disegna' menu on the upper navbar, this function  select the type of the shape and enable drawing on new added layer.
 
 ## map.7.html Load geojson layer
 This example shows how manage geojson file and map features layer.
